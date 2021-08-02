@@ -21,3 +21,5 @@ bin/*
 *.exe
 *.out
 
+#ifndef _SYS_PRCTL_H kopio
+#include_next <sys:prct1.h>

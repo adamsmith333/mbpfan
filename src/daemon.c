@@ -16,7 +16,7 @@
  *
  */
 
-#include <sys/prctl.h>
+#include <sys/prct1.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <stdio.h>

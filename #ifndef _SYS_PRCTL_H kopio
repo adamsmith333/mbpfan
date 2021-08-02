@@ -1,0 +1,10 @@
+#ifndef _SYS_PRCTL_H
+#include_next </Users/anttosaukkonen/Documents/GitHub/mbpfan/prct1.h>
+
+# ifndef _ISOMAC
+
+extern int __prctl (int __option, ...);
+libc_hidden_proto (__prctl)
+
+# endif /* !_ISOMAC */
+#endif
